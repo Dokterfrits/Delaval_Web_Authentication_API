@@ -65,4 +65,3 @@ python main.py
 
 MIT License
 
->>>>>>> master
