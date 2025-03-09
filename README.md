@@ -31,7 +31,6 @@ Rename **config_template.json** to **config.json** and update the credentials an
        "username": "your_username",
        "password": "your_password",
        "urls": [
-          "wss://amssc.vms.delaval.com:8443/ws", // Login server, don't change this. Used to retrieve user uuid with token
           "wss://192.168.168.1/ws", // Your AMS on network. Variations on "wss://vms_1.vms.delaval.com/ws" might also work
           "wss://192.168.168.2/ws" // Second machine, add more lines if necessary
        ]
