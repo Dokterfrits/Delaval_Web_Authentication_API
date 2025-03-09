@@ -1,4 +1,4 @@
-# WebSocket Automation for Delaval AMS control
+# Delaval v300 AMS automatic webui authentication
 
 ## Overview
 
