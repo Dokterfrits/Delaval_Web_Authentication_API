@@ -27,7 +27,7 @@ This project automates authentication and WebSocket communication with multiple 
 
 ## Configuration
 
-**Rename **config_template.json** to **config.json** and update the credentials and urls** in the project directory:
+Rename **config_template.json** to **config.json** and update the credentials and urls in the project directory:
    ```json
    {
        "username": "your_username",
