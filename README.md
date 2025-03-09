@@ -1,10 +1,10 @@
 
 # Delaval_v300_Web_Authentication
-A python program to authenticate at the webui of the Delaval v300 automatic milking station AMS and establish a websocket connection to interact with the machine.
-=======
 # WebSocket Automation for Delaval AMS control
 
 ## Overview
+
+A python program to authenticate at the webui of the Delaval v300 automatic milking station AMS and establish a websocket connection to interact with the machine.
 
 This project automates authentication and WebSocket communication with multiple AMS machines. It logs in using hashed credentials, establishes WebSocket connections, and can send control messages to specific machines.
 
