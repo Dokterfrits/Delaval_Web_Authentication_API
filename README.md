@@ -1,5 +1,3 @@
-
-# Delaval_v300_Web_Authentication
 # WebSocket Automation for Delaval AMS control
 
 ## Overview
