@@ -10,7 +10,7 @@ This project automates authentication and WebSocket communication with multiple 
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/Dokterfrits/Delaval_v300_Web_Authentication
+   git clone https://github.com/Dokterfrits/Delaval_Web_Authentication_API
    cd websocket-automation
    ```
 2. **Create a virtual environment (optional but recommended):**
