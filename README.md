@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Delaval_v300_Web_Authentication
 A python program to authenticate at the webui of the Delaval v300 automatic milking station AMS and establish a websocket connection to interact with the machine.
 =======
@@ -27,15 +27,15 @@ This project automates authentication and WebSocket communication with multiple 
 
 ## Configuration
 
-**Update the **config.json** file** in the project directory:
+**Rename **config_template.json** to **config.json** and update the credentials and urls** in the project directory:
    ```json
    {
        "username": "your_username",
        "password": "your_password",
        "urls": [
-           "wss://amssc.vms.delaval.com:8443/ws", // Login server is used to retrieve user uuid with token
-           "wss://vms_1.vms.delaval.com/ws", // Your machine on network. Variations on 192.168.168.1 might also work
-           "wss://vms_2.vms.delaval.com/ws" // Second machine, add more lines if necessary
+          "wss://amssc.vms.delaval.com:8443/ws", // Login server, don't change this. Used to retrieve user uuid with token
+          "wss://192.168.168.1/ws", // Your AMS on network. Variations on "wss://vms_1.vms.delaval.com/ws" might also work
+          "wss://192.168.168.2/ws" // Second machine, add more lines if necessary
        ]
    }
    ```
