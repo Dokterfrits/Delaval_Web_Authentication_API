@@ -8,6 +8,7 @@ import threading
 # URLs
 SALT_URL = "https://amssc.vms.delaval.com:8445/get_salt"
 LOGIN_URL = "https://amssc.vms.delaval.com:8445/login"
+UUID_URL = "wss://amssc.vms.delaval.com:8443/ws"
 
 MODES = ["auto", "manual", "activatedelayedrel", "activatemanualclosedstall"]
 
@@ -18,6 +19,7 @@ with open("config.json", "r") as f:
 USERNAME = config["username"]
 PASSWORD = config["password"]
 WS_URLS = config["urls"]
+WS_URLS.insert(0, UUID_URL)
 
 # User session data (to be filled after login)
 SESSION_USER = {}
@@ -25,6 +27,7 @@ AUTH_TOKEN = ""
 
 # Store active WebSocket connections
 websocket_connections = {}
+
 
 def get_salt(username):
     """Fetches salt and hashing parameters for the user."""
